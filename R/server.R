@@ -28,11 +28,8 @@
             library(FactoMineR)
             library(shinyjqui)
             library(shinyjqui)
-            library(rsconnect)
+
             
-            rsconnect::setAccountInfo(name='jagmagma369',
-                                      token='A6ACBA6AC89B646B995A42C0A51F718E',
-                                      secret='1gezQSF7rmx3Gs0h6byAk2an/h/izb3yzuLTsNmV')
             
                                     
             
@@ -54,8 +51,7 @@
               
               
               
-            	
-                        	# =========== BUILDING THE INPUTS ===========
+  # ===========  =========== =========== ====================== BUILDING THE INPUTS ===========  =========== =========== =========== =========== ===========
             	
             	
             
@@ -268,7 +264,7 @@
             	})
             	
             	
-            	# ============== MANIPULATE THE DATA ================
+   # =========== =========== =========== =========== ============== MANIPULATE THE DATA ================  =========== =========== =========== =========== ===========
             
             	# The dataset to show/plot, which is the raw data after filtering based on
             	# the user inputs
@@ -480,7 +476,7 @@
                           	})
             
                           	
-                          		# ============= TAB TO SHOW data IN TABLE 	# =============
+   # =========== =========== ============= TAB TO SHOW data IN TABLE  =========== =========== ===========	=============
             
                           	# Show the data1 in a table
                           	output$dataTable_1 <- DT::renderDataTable(
@@ -504,7 +500,7 @@
                           		}
                           	)	
                           	
-                          	#  ============= TAB TO SHOW data IN table1	# =============
+    # =========== ===========  ============= TAB TO SHOW data IN table1	# =============  =========== =========== ===========
                           	output$dataTable <- DT::renderDataTable(
                           	  {
                           	    cDatTable()
@@ -528,7 +524,7 @@
                           
                           	
                       	
-                      	#  ============= TAB TO SHOW data IN table2	# =============
+     #  =========== ===========  ============= TAB TO SHOW data IN table =========== =========== =========== =========== =============
                       	output$dataTable_2 <- DT::renderDataTable(
                       	  {
                       	    cDatTable_2()
@@ -612,7 +608,7 @@
                             	    height = 700
                             	  )
             	
-                            	addPopover(session, "dataPlot", "Data", content = paste0("The heatmap shows normalized (z scores) of chromatin profiles for differential peaks across PBMC samples where a Sample ID is specific for each PBMC sample from young 20, old14 donors.   "), placement="top", trigger = 'hover')
+                              addPopover(session, "dataPlot", "Data", content = paste0("The heatmap shows normalized (z scores) of chromatin profiles for differential peaks across PBMC samples where a Sample ID is specific for each PBMC sample from young 20, old14 donors.   "), placement="top", trigger = 'hover')
                               addPopover(session,"btton","Info",content = paste0("Use this button to unlock the drop down menu ,[USE ONLY ONE DROP DOWN MENU AT A TIME] "), placement="top", trigger = 'hover')                                                      
                               addPopover(session,"BTTN","Info",content = paste0("Use this button to unlock the drop down menu ,[USE ONLY ONE DROP DOWN MENU AT A TIME] "), placement="top", trigger = 'hover')                                                      
                               
