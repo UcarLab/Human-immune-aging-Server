@@ -1,0 +1,50 @@
+body {
+	background: url("background.jpg") repeat;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+#headerSection {
+	margin: -25px 0 20px;
+	color: #FAFAFA;
+	padding: 15px 20px;
+	box-shadow: 0 0 7px #000;
+        background: #232526;
+        background: -webkit-linear-gradient(to left, #232526 , #414345);
+        background: linear-gradient(to left, #232526 , #414345);
+} 
+
+#headerSection a {
+  color: white !important;
+  text-decoration: underline;
+}
+
+#allContent,
+#loadingContent {
+	padding: 0 20px;
+}
+
+.nav-tabs > li > a {
+	font-size: 1.5em;
+}
+
+#dataTable > table {
+	background: #FAFAFA;
+}
+
+.well {
+	background: #FCFCFC;
+}
+
+
+#updateBtn {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+#yearText {
+	display: inline;
+}

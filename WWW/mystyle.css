@@ -1,0 +1,32 @@
+body {
+  background-image: url("library.jpeg"); /*Imports image*/
+    background-size: cover; /*Makes the image cover the screen*/
+    background-repeat: no-repeat; /*Does not allow image to repeat*/
+    height: 100vh; /*Sets the height of the image to that of the browser*/
+}
+
+@import url('//fonts.googleapis.com/css?family=Roboto'); /*Imports Roboto from Google fonts*/
+  
+  
+  h2 {
+    font-family: 'Roboto', sans-serif; /*Sets font to Roboto*/
+      font-size: 60px; /*Sets font size to 60 pixels*/
+      color: #fff; /*Changes font color to white or hex #fff*/
+      border-style: solid; /*Creates a border around h2 elements*/
+      display: inline; /*Makes border wrap around the text*/
+  }
+
+.myTitle {
+  margin-top: 100px; /*Adds 100 pixels between this div and the one above it*/
+    margin-bottom: 50px; /*Adds 50 pixels between this div and the one below it*/
+    text-align: center; /*Brings content to the middle of the display*/
+}
+
+.myContent {
+  background-color: rgba(255,255,255,.5); /*Sets background to white and makes it 50% transparent*/
+    padding-top: 20px; /*Extends div 20 pixels upwards*/
+    padding-right: 20px; /*Extends div 20 pixels to the right */
+    padding-left: 20px; /*Extends div 20 pixels to the left*/
+    max-width: 1000px; /*Makes max width of div a thousand pixels*/
+    margin: auto; /*Centers div content*/
+}
