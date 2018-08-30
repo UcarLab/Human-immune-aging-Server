@@ -1,10 +1,9 @@
 
 
 # Helper functions for the UCAR DATA SHINY APP
-
 library(magrittr)
 
-DATA_DIR <- file.path("/Users/oneils/Desktop/trial_369_another_3/data1")
+DATA_DIR <- file.path("data1")
 
 # Read the data and get it ready for the app
 getData <- function() {
