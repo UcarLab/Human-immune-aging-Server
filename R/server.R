@@ -27,7 +27,7 @@
             library(tibble)
             library(FactoMineR)
             library(shinyjqui)
-            library(shinyjqui)
+            
 
             
             
