@@ -36,7 +36,7 @@
                     # Get the raw data
                     cDatRaw <- getData()
                     cDatRaw_pathway <- getData_pathway()
-                    #cDatRaw_module <- getData_module()
+                   
                     cDatRaw_cell <- getData_cell()
                     # Get the list of colours to use for plotting
                     plotCols <- getPlotCols()
